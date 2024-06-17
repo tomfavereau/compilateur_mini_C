@@ -53,6 +53,6 @@ Fixing big numbers would require two types of integer, and multiplication would 
 Since we have arrays, a pointer is nothing more than an array of length 1.
 
 ### Functions
-For each function, define an array: function_name_pointer in assembly. Each time we call the function, we store the result in the array and return the result in rax.
+For each function, define an array: function_name_pointer in assembly. Each time we call the function, we store the arguments in the array and return the result in rax.
 
 We will try to improve our compiler during the next few weeks.
