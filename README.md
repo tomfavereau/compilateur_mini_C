@@ -1,5 +1,9 @@
 # compilateur_mini_C
 
+# Authors
+Tom Faverau
+Alicia Shao
+
 ## What is needed
 
 - A Linux distribution
