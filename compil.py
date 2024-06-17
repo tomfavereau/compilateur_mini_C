@@ -2,7 +2,6 @@ import lark
 import re
 import math
 import sys
-import subprocess
 #ON A TOUT MIS EN .BSS SUR CETTE VERSION
 #Définition grammaire
 #Tokens => capitalized, tree leaves | Rules => regular
@@ -358,12 +357,8 @@ if __name__ == "__main__":
         name = sys.argv[2]
     else:
         name = filename.split(".")[0]
-        name = name+"."+"ams"
+        name = name+"."+"asm"
     print(name)
     with open(name, 'w', encoding='utf-8') as file_out:
         file_out.write(toASM(tree_lines))
-        result = subprocess.run(f"nasm -f elf64 {name}", capture_output=True, text=True)
-        print(result)
-        name = name.split(".")[0]
-        name = name+".o"
-        result = subprocess.run(f"gcc -no-pie {name}")
+        
