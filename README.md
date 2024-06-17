@@ -33,7 +33,7 @@ We found the implementation of big numbers very difficult, particularly their in
 
 ## Arrays
 Arrays are declared with the instruction "var tX[size]", array variables can only start with a t, so int variables can't start with a t.
-An array is defined by a pointer to its values and its size (easy access for len(tX)), in the .bss section of the generated .asm file. Once it is declared, the pointer is allocated by a call to malloc. Usual operations are avalaible: access and assignment of the value at index i (tx[i]).
+An array is defined by a pointer to its values and its size (easy access for len(tX)), in the .bss section of the generated .asm file. Once it is declared, the pointer is allocated by a call to malloc. Usual operations are avalaible: access and assignment of the value at index i (tX[i]).
 
 ## Big numbers
 
