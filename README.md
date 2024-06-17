@@ -47,7 +47,7 @@ As we tried to implement big numbers, we had time to think of some improvements 
 
 ### Fixing our big numbers
 
-Fixing big numbers would require two types of integer, and multiplication would involve like in Python, fourier transform techniques.
+Fixing big numbers would require two types of integer, and multiplication would involve like in Python, Fourier transform techniques.
 
 ### Pointers
 Since we have arrays, a pointer is nothing more than an array of length 1.
