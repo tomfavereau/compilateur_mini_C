@@ -11,7 +11,9 @@
 
 ## How to compile 
 
-python3 file.c (filename.out : optional)
+python3 file.c (filename.asm : optional)
+nasm -f elf64 filename.asm
+gcc -no-pie filename.o
 
 ## Contribution
 
