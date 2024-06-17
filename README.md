@@ -12,7 +12,6 @@ Alicia Shao
 - gcc
 - python3
 - lark
-- How to compile
 
 ## How to compile 
 
